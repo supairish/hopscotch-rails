@@ -13,7 +13,7 @@ Gem::Specification.new do |spec|
   spec.description   = %q{Hopscotch is a framework for making product tours on web pages. This gem makes it easy to include the framework into a Rails app.}
   spec.license       = "MIT"
 
-  spec.files         = Dir["{lib,vendor}/**/*"] + ["LICENSE.txt", "README.md"]
+  spec.files         = Dir["{app,lib}/**/*"] + ["LICENSE.txt", "README.md"]
   spec.require_paths = ["lib"]
 
   spec.add_development_dependency "bundler", "~> 1.3"
